@@ -1,0 +1,152 @@
+*,*::before,*after{
+    box-sizing: border-box;
+}*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body,html {
+    height: 100%;
+    margin: 0;
+    display: block;
+    padding: 0;
+    background: #f1f1f1;  
+    font-family: 'Fira Sans', sans-serif;
+  }
+  main{
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #9b9b9b
+  }
+  
+.seasons3:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,.5);
+}
+.ticketsBttn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    background: #1D3D80;
+    padding: 10px 30px;
+    font-size: 20px;
+    color:#fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 30px 120px;
+   }
+   .content{
+    position:absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-20%,-50%);
+    text-align: center;
+
+   }
+
+   .content h2 {
+    font-family: 'PT Serif', serif;
+    font-size: 44px;
+    letter-spacing: 0.1em;
+    padding-left: 0px;
+    font-weight: 600;
+    color: #4B4B4D;
+    justify-content: center;
+     }
+     .content p {
+        font-family: 'PT Serif', serif;
+        font-size: 18px;
+        letter-spacing: 0.1em;
+        padding-left: 0px;
+        font-weight: 400;
+        color: #1D3D80;
+        justify-content: center;
+         }
+         #navBar{
+            display: flex;
+            flex-direction: row;
+            margin: 0px 0%;
+        }
+        #navigation{
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content:space-evenly;
+            color: #2F55A6
+        }
+        #navigation p{
+            font-family: 'Fira Sans', sans-serif;
+            font-size: 24px;
+            font-weight: 800;
+        }
+        .icons {
+            display:flex;
+            justify-content: flex-end;
+            align-items: center;
+            width: 25%;
+        }
+        .ticketsButton{
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            width: -35%;
+            background: #C4C4C4;
+            padding: 10px 20px;
+            font-size: 20px;
+            color:#fff;
+            border-radius: 5px;
+            border-color: #C4C4C4;
+            cursor: pointer;
+            margin: 10px;
+           }
+        .seasons1{
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%, 3%);
+            padding: 20px;
+            box-sizing:border-box;
+            width: 1700px;
+            background: #FFC700;
+            border-radius: 4px;
+            box-shadow: 0 5px 15px rgba(0,0,0,.5);
+            display: flex;
+        }
+        .seasons1:hover{
+            box-shadow: 0 15px 30px rgba(0,0,0,.5);
+        }
+        .seasons2{
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,110%);
+            padding: 20px;
+            box-sizing: border-box;
+            width: 1700px;
+            background: #FFC700;
+            border-radius: 4px;
+            box-shadow: 0 5px 15px rgba(0,0,0,.5);
+            display: flex;
+        }
+        .seasons2:hover{
+            box-shadow: 0 15px 30px rgba(0,0,0,.5);
+        }
+        .seasons3{
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,215%);
+            padding: 20px;
+            box-sizing: border-box;
+            width: 1700px;
+            background: #FFC700;
+            border-radius: 4px;
+            box-shadow: 0 5px 15px rgba(0,0,0,.5);
+            display: flex;
+        }
